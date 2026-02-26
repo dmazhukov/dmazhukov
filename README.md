@@ -1,6 +1,6 @@
 # Dmitrii Zhukov — Senior DevOps / Infrastructure Engineer
 
-Infrastructure engineer focused on **Kubernetes reliability**, **observability stacks**, and **PostgreSQL HA operations**. 19 years in tech — 14 as a .NET developer and tech lead, 6+ in DevOps and cloud infrastructure.
+Infrastructure engineer focused on **Kubernetes reliability**, **observability stacks**, and **PostgreSQL HA operations**. 20+ years in tech — 14 as a .NET developer and tech lead, 6+ in DevOps and cloud infrastructure.
 
 Based in Vietnam 🇻🇳 · Remote worldwide · GMT+7
 
@@ -9,7 +9,7 @@ Based in Vietnam 🇻🇳 · Remote worldwide · GMT+7
 ## What I work on
 
 - **Kubernetes** — GKE, kubeadm, Rancher. Production clusters from 3 nodes to multi-region. On-premise included (ships with satellite connectivity — not your typical infra problem).
-- **Observability** — Prometheus, Grafana, Istio service mesh with distributed tracing. SLO-based alerting using multi-window burn rate.
+- **Observability** — Prometheus, Grafana, Istio service mesh with distributed tracing.
 - **PostgreSQL** — HA clusters with Patroni, streaming replication, failover testing, performance tuning.
 - **IaC** — Terraform, Ansible, Helm. Infrastructure treated the same as application code: PR reviews, tested pipelines, no manual snowflakes.
 - **CI/CD** — Jenkins, GitLab CI, GitHub Actions, Codefresh. Reduced release failure rates by 90% through pre-deployment validation and staged rollouts.
