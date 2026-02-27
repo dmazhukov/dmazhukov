@@ -1,4 +1,4 @@
-# Dmitrii Zhukov — Senior DevOps / Infrastructure Engineer
+# Dmitrii Zhukov — Senior DevOps / Platform / SRE Engineer
 
 Infrastructure engineer focused on **Kubernetes reliability**, **observability stacks**, and **PostgreSQL HA operations**. 20+ years in tech — 14 as a .NET developer and tech lead, 6+ in DevOps and cloud infrastructure.
 
