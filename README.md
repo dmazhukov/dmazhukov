@@ -8,7 +8,7 @@ Based in Vietnam 🇻🇳 · Remote worldwide · GMT+7
 
 ## What I work on
 
-- **Kubernetes** — GKE, kubeadm, Rancher. Production clusters from 3 nodes to multi-region. On-premise included (ships with satellite connectivity — not your typical infra problem).
+- **Kubernetes** — Production clusters across GKE, kubeadm and Rancher — cloud and on-premise including offline-tolerant ship environments (ships with satellite connectivity — not your typical infra problem).
 - **Observability** — Prometheus, Grafana, Istio service mesh with distributed tracing.
 - **PostgreSQL** — HA clusters with Patroni, streaming replication, failover testing, performance tuning.
 - **IaC** — Terraform, Ansible, Helm. Infrastructure treated the same as application code: PR reviews, tested pipelines, no manual snowflakes.
