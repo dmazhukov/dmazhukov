@@ -12,13 +12,23 @@ Based in Vietnam 🇻🇳 · Remote worldwide · GMT+7
 - **Observability** — Prometheus, Grafana, Istio service mesh with distributed tracing.
 - **PostgreSQL** — HA clusters with Patroni, streaming replication, failover testing, performance tuning.
 - **IaC** — Terraform, Ansible, Helm. Infrastructure treated the same as application code: PR reviews, tested pipelines, no manual snowflakes.
-- **CI/CD** — Jenkins, GitLab CI, GitHub Actions, Codefresh. Reduced release failure rates by 90% through pre-deployment validation and staged rollouts.
+- **CI/CD** — Jenkins, GitLab CI, GitHub Actions, Codefresh. Pre-deployment validation, staged rollouts, observability-driven rollback gates.
 
 ---
 
 ## Featured
 
+### 🛡️ [cronguard](https://github.com/dmazhukov/cronguard) — Kubernetes operator (Go)
+
+SLO-style observability for Kubernetes CronJobs. Wraps `batch/v1.CronJob` workloads with a `CronJobMonitor` CRD that declares per-CronJob SLOs (schedule, max duration, max consecutive failures, missed-run tolerance), surfaces them as `cronguard_*` Prometheus metrics, and ships a default `PrometheusRule` with five alerts and runbooks.
+
+- ~1500 lines Go on kubebuilder v4 + controller-runtime
+- Coverage: 82.9% controller · 95.0% schedule · 95.8% history · 94.9% metrics
+- Multi-arch image · Helm chart on OCI + GitHub Pages · listed on Artifact Hub
+- kind-based e2e on every push + nightly schedule
+
 ### 📊 [prometheus-alerting-rules](https://github.com/dmazhukov/prometheus-alerting-rules)
+
 Production-grade Prometheus alerting rules for Kubernetes, PostgreSQL/Patroni, and SLO burn rate alerting — with runbooks.
 
 Covers:
