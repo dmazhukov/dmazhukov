@@ -2,7 +2,7 @@
 
 Infrastructure engineer focused on **Kubernetes reliability**, **observability stacks**, and **PostgreSQL HA operations**. 20+ years in tech — 14 as a .NET developer and tech lead, 6+ in DevOps and cloud infrastructure.
 
-Based in Vietnam 🇻🇳 · Remote worldwide · GMT+7
+Based in Brazil · Remote worldwide · GMT-3
 
 ---
 
